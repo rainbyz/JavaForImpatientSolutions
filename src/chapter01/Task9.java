@@ -2,6 +2,11 @@ package chapter01;
 
 import java.util.Scanner;
 
+/**
+ * Section 1.5.3, “String Comparison,” on p. 21 has an example of two strings s and t
+ * so that s.equals(t) but s != t. Come up with a different example that does not use substring().
+ */
+
 public class Task9 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

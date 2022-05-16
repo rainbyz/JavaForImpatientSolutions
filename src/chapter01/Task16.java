@@ -1,5 +1,9 @@
 package chapter01;
 
+/**
+ * Improve the average method so that it is called with at least one parameter.
+ */
+
 public class Task16 {
     public static void main(String[] args) {
         System.out.println(average(5));

@@ -2,6 +2,11 @@ package chapter01;
 
 import java.util.Scanner;
 
+/**
+ * Write a program that reads an integer and prints it in binary, octal, and hexadecimal.
+ * Print the reciprocal as a hexadecimal floating-point number.
+ */
+
 public class Task1 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

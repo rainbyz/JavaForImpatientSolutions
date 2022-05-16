@@ -2,6 +2,12 @@ package chapter01;
 
 import java.util.Scanner;
 
+/**
+ * Write a program that reads in two numbers between 0 and 65535, stores them
+ * in short variables, and computes their unsigned sum, difference, product, quotient,
+ * and remainder, without converting them to int.
+ */
+
 public class Task7 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);

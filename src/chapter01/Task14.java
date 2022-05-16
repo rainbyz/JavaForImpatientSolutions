@@ -3,6 +3,19 @@ package chapter01;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Write a program that reads a two-dimensional array of integers and determines
+ * whether it is a magic square (that is, whether the sum of all rows, all columns,
+ * and the diagonals is the same). Accept lines of input that you break up into individual
+ * integers, and stop when the user enters a blank line. For example, with the input
+ * 16 3 2 13
+ * 5 10 11 8
+ * 9 6 7 12
+ * 4 15 14 1
+ * (Blank line)
+ * your program should respond affirmatively.
+ */
+
 public class Task14 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
@@ -20,8 +33,7 @@ public class Task14 {
             }
         }
 
-        System.out.println(Arrays.deepToString(arr));
-        System.out.println("Given matrix is magic square? " + isMagicSquare(arr));
+        System.out.println(System.lineSeparator() + "Given matrix is magic square? " + isMagicSquare(arr));
 
     }
 

@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Write a program that stores Pascal’s triangle up to a given n
+ * in an ArrayList<ArrayList<Integer>>.
+ */
+
 public class Task15 {
 
     public static ArrayList<ArrayList<Integer>> generate(int numRows) {
