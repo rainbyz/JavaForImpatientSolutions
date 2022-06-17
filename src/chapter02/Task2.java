@@ -20,8 +20,8 @@ public class Task2 {
         System.out.println(m);
 
         /*
-        * nextInt of the Scanner class is both a mutator and an accessor according to StackOverFlow;
-        * nextInt of the Random class is an accessor only.
-         */
+        nextInt of the Scanner class is both a mutator and an accessor according to StackOverFlow;
+        nextInt of the Random class is an accessor only.
+        */
     }
 }
